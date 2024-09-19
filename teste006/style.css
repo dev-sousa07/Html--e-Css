@@ -1,0 +1,20 @@
+@charset "UTF-8";
+<!--configurção externa-->
+body{
+    background-color: rgb(236, 211, 177);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: rgb(94, 74, 10);
+    background-color: rgb(196, 125, 20);
+}
+
+h2{
+    color: rgb(175, 16, 16);
+}
+
+p{
+    color: black;
+}

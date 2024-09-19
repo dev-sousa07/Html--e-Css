@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia</title>
+</head>
+<body>
+    <h1>Imagens</h1>
+    <picture>
+        <!--Se a imagem estiver menos de 1000px,vai carregar a foto média ou pequena.OBS:Deve estar em ordem-->
+        <source media="(max-width: 750px)" srcset="Imagens/P.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="Imagens/M.png" type="image/png">
+        <img src="imagens/G.png" alt="Imagem Flexível">
+     </picture>
+</body>
+</html>

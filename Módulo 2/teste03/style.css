@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body{
+    font-family: handwrite;
+    /* MEDIDAS ABSOLUTAS: Precisa de um valor fixo
+    CM, MM, IN, PX, PT, PC */
+
+    /*MEDIDAS RELATIVAS: Se adapta ao navegador
+    EM, EX, REM, VW, % 
+    16 px = 1em (medida comum da letra)*/
+
+    font-size:16px;
+}
+
+h1, h2 {
+    font-family: monospace;
+    font-style: italic;
+}
+
+p{
+    font-family: monospace;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+p2{
+    font-family: monospace;
+    font-size: 1em;
+    font-style: italic;
+    /*Peso da font*/
+    font-weight: bolder;
+}
+
+p3{
+    /*Shorthand fonte: Juntas todos
+    font-style --> font-weigth --> font-size --> font-family
+    */
+    font: italic bolder 1em monospace;
+}
+
+
+p4 {
+        font-family: "Bungee Tint", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+    
+}
+
+

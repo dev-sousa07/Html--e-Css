@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*ID = #
+  class = .
+*/
+#principal{
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(165, 85, 42);
+}
+h1{
+    color:brown;
+    
+}
+
+h2{
+    color:rgb(132, 36, 36);
+}

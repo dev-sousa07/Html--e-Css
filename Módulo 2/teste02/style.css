@@ -1,40 +1,11 @@
 @charset "UTF-8";
 
-/*Configurações globaisutiliza */
-* {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-body{
-   background-image: linear-gradient(100deg, #062e31, #0A3A40) ;
-}
-
-main{
-    background-color: aliceblue;
-    /*lARGURA*/
-    width: 600px;
-    /*ACOCHOAMENTO*/
-    padding:10px ;
-    /*MARGEM*/
-    margin: auto;
-    /*BORDA REDONDA*/
-    border-radius: 10px;
-    /*SOMBRA: 1:LADO, 2:BAIXO, 3:ESPALHAR, 4:TRANSPARÊNCIA*/
-    box-shadow: 10px,5px,10px, #000000d7;
-
-}
-
 h1{
-    color:#388383b7 ;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    text-align: center; 
+    background-color: rgb(223, 134, 61);
+    color: #ffffff;
 }
-
-h2{
-    color:#0d4949 ;
-}
-
-p {
-    text-align: justify;
+body {
+    background: linear-gradient( 33deg, #ff6b6b, #f7e5a8);
+    height: 100vh; /* Preenche toda a altura da viewport */
+    margin: 0;
 }

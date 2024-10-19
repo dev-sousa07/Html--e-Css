@@ -1,51 +1,40 @@
 @charset "UTF-8";
 
+/*Configurações globaisutiliza */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 body{
-    font-family: handwrite;
-    /* MEDIDAS ABSOLUTAS: Precisa de um valor fixo
-    CM, MM, IN, PX, PT, PC */
-
-    /*MEDIDAS RELATIVAS: Se adapta ao navegador
-    EM, EX, REM, VW, % 
-    16 px = 1em (medida comum da letra)*/
-
-    font-size:16px;
+   background-image: linear-gradient(100deg, #062e31, #0A3A40) ;
 }
 
-h1, h2 {
-    font-family: monospace;
-    font-style: italic;
+main{
+    background-color: aliceblue;
+    /*lARGURA*/
+    width: 600px;
+    /*ACOCHOAMENTO*/
+    padding:10px ;
+    /*MARGEM*/
+    margin: auto;
+    /*BORDA REDONDA*/
+    border-radius: 10px;
+    /*SOMBRA: 1:LADO, 2:BAIXO, 3:ESPALHAR, 4:TRANSPARÊNCIA*/
+    box-shadow: 10px,5px,10px, #000000d7;
+
 }
 
-p{
-    font-family: monospace;
-    font-size: 1em;
-    font-style: normal;
-    font-weight: lighter;
+h1{
+    color:#388383b7 ;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center; 
 }
 
-p2{
-    font-family: monospace;
-    font-size: 1em;
-    font-style: italic;
-    /*Peso da font*/
-    font-weight: bolder;
+h2{
+    color:#0d4949 ;
 }
 
-p3{
-    /*Shorthand fonte: Juntas todos
-    font-style --> font-weigth --> font-size --> font-family
-    */
-    font: italic bolder 1em monospace;
+p {
+    text-align: justify;
 }
-
-
-p4 {
-        font-family: "Bungee Tint", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      
-    
-}
-
-

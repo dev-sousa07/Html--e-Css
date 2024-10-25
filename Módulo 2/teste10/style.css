@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(102, 102, 89, 0.878);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(165, 115, 50);
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(210, 161, 75);
+    padding: 3px;
+    /*Sombra: deslocamento horizontal, deslocamneto vertical, transparência e cor*/
+    box-shadow: 1px 2px 7px rgba(40, 40, 40, 0.868);
+
+}
+
+nav > a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    color: rgb(17, 12, 6);
+}
+
+main{
+    background-color: rgb(210, 154, 81);
+    padding: 10px 5px;
+    margin: 4px;
+    border: 5px double rgba(165, 115,50) ;
+    border-radius: 10px 0px;
+}
+
+article{
+    background-color:rgb(171, 105, 24) ;
+    padding: 6px;
+}
+
+article > aside{
+    background-color: rgb(83, 41, 6);
+}
+footer{
+    background-color:rgb(165, 115, 50);
+    color: aliceblue;
+    text-align: center;
+    padding:10px;
+    margin:0;
+}
+
+footer > p{
+    margin: 0px;
+}
+
+.bola{
+    background-color: aliceblue;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    float:inline-start;
+
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Level</title>
+    <style>
+        /*Caso queira modificar o tipo da caixa, basta colocar display: Block ou inline*/
+        h1{ /*Box-level*/
+            background-color: beige;
+
+            height: 100px;
+            width: 100px;
+
+            border-width: 10px;
+            border-style:solid ;
+            border-color: black;
+            border-radius: 10px;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+           outline-width: 10px;
+           outline-style: dashed;
+           outline-color: blueviolet;
+
+        }
+
+        a{ /*Inline-level*/
+            /*Short: Widht - style - color*/
+            border: 10px double black;
+            
+            /*Short: top - right - bottom - left*/
+            padding: 10px 5px 10px 5px;
+
+            /*Centraliza a caixa ou top - right - bottom - left*/
+            margin: auto;
+
+            /*Short: Widht - style - color*/
+            outline: 5px dashed red;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Box-Level</h1>
+    <p>Parágrafos tamnbém são box-level, mas os <a href="#">a</a>links são inline-level.</p>
+</body>
+</html>
